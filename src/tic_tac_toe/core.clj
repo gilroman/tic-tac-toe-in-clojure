@@ -1,7 +1,7 @@
 (ns tic-tac-toe.core
+  (:require [tic-tac-toe.output :refer :all])
   (:gen-class))
 
 (defn -main
-  "I don't do a whole lot."
   []
-  (println "Hello, World!"))
+  (say-welcome))
